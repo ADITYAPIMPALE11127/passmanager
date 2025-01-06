@@ -1,0 +1,46 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .profile-card {
+    margin: 10px;
+    width: 300px; 
+    height: 150px; 
+    background-color: aquamarine;
+    border-radius: 8px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+  }
+  
+  .profile-card:hover {
+    transform: scale(1.05); 
+  }
+  
+  .card-content {
+    padding: 16px; 
+  }
+  
+  .card-title {
+    font-weight: bold; 
+    font-size: 1.2em; 
+    overflow: hidden;
+    white-space: nowrap; 
+    text-overflow: ellipsis; 
+  }
+  
+  .card-body {
+    color: #555; 
+    margin-top: 8px; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    text-overflow: ellipsis;    
+  }
+  
